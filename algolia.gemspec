@@ -2,11 +2,11 @@ require 'date'
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'algolia/version'
+require 'algolia_v2/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'algolia'
-  spec.version       = Algolia::VERSION
+  spec.name          = 'algolia_v2'
+  spec.version       = AlgoliaV2::VERSION
   spec.authors       = ['Algolia']
   spec.email         = ['support@algolia.com']
 
